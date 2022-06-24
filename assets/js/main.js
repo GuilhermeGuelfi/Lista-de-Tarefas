@@ -69,8 +69,8 @@ function adicionaTarefasSalvas() {
     const listaDeTarefas = JSON.parse(tarefas);
     console.log(listaDeTarefas)
     
-    for (let tarefass of listaDeTarefas) {
-        adicionaTarefa(tarefass)
+    for (let tarefas of listaDeTarefas) {
+        adicionaTarefa(tarefas)
     }
 }
 
